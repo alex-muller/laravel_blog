@@ -15,14 +15,22 @@
 
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
-            <h3>Comments</h3>
+            <h3 class="comments-title"><span class="glyphicon glyphicon-comment"></span> {{ $post->comments()->count() }} Comment(s)</h3>
             @foreach($post->comments as $comment)
                 <div class="comment">
-                    <p><strong>Name:</strong> {{ $comment->name }}</p>
-                    <p><strong>Comment:</strong> <br> {{ $comment->comment }}</p>
-                </div>
-                <hr>
+                    <div class="author-info">
+                        <img src="/img/face.png" class="author-image">
+                        <div class="author-name">
+                            <h4>{{ $comment->name }}</h4>
+                            <p class="author-time">{{ $comment->created_at }}</p>
+                        </div>
 
+                    </div>
+                    <div class="comment-content">
+                        {{ $comment->comment }}
+                    </div>
+
+                </div>
             @endforeach
         </div>
     </div>

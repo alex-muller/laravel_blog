@@ -1,3 +1,39 @@
 .btn-h1-spacing{
     margin-top: 20px
 }
+
+.comment{
+    margin-bottom: 35px;
+}
+.comments-title{
+    margin-bottom: 45px;
+}
+.author-image{
+    width: 50px;
+    height: 50px;
+    border-radius:50%;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid #aaa;
+}
+
+.author-name{
+    margin-left: 15px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.author-name h4{
+    margin: 0 0 5px 0;
+    font-weight:bold;
+}
+
+.author-time{
+    font-size:11px;
+    font-style: italic;
+    color: #aaa;
+}
+.comment-content{
+    clear: both;
+    margin-left: 68px;
+}
