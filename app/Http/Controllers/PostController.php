@@ -44,7 +44,7 @@ class PostController extends Controller
     public function create()
     {
         $data['categories'] = Category::all();
-        $data['tags'] = Tag::all()->pluck('id', 'name');
+        $data['tags'] = Tag::all()->pluck('name', 'id');
         return view('posts.create', $data);
     }
 

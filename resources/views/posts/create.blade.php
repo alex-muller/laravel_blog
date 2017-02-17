@@ -3,6 +3,12 @@
 @section('stylesheets')
     {!! Html::style('css/parsley.css') !!}
     {!! Html::style('css/select2.min.css') !!}
+    <script src="//cloud.tinymce.com/stable/tinymce.min.js"></script>
+    <script>tinymce.init({
+        selector:'textarea',
+        plugins: "lists link code image",
+
+      });</script>
 @endsection
 
 @section('title', '| Create New Post')
@@ -33,7 +39,7 @@
                 {{ Form::select('tags[]', $tags, null, ['class' => 'form-control tag_id', 'multiple' => 'multiple'])}}
 
                 {{ Form::label('body', 'Post Body:') }}
-                {{ Form::textarea('body', null, array('class' => 'form-control', 'required' => '', 'maxlength' => "255")) }}
+                {{ Form::textarea('body', null, array('class' => 'form-control')) }}
                 <br>
                 {{ Form::submit('Create Post', array('class' => 'btn btn-success btn-lg btn-block')) }}
             {!! Form::close() !!}

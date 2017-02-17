@@ -3,6 +3,12 @@
 @section('stylesheets')
     {!! Html::style('css/parsley.css') !!}
     {!! Html::style('css/select2.min.css') !!}
+    <script src="//cloud.tinymce.com/stable/tinymce.min.js"></script>
+    <script>tinymce.init({
+        selector:'textarea',
+        plugins: "lists link code image",
+
+      });</script>
 @endsection
 
 @section('title', '| Edit Blog Post')

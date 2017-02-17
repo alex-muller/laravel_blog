@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37b36491-925a-4058-ab40-947fa2b4bc26" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/comments/delete.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/comments/edit.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/CommentsController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/CommentsController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/posts/show.blade.php" afterPath="$PROJECT_DIR$/resources/views/posts/show.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/posts/create.blade.php" afterPath="$PROJECT_DIR$/resources/views/posts/create.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/posts/edit.blade.php" afterPath="$PROJECT_DIR$/resources/views/posts/edit.blade.php" />
     </list>
     <ignored path="blog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,41 +38,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="show.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/posts/show.blade.php">
+      <file leaf-file-name="create.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/posts/create.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="77" lean-forward="false" selection-start-line="36" selection-start-column="77" selection-end-line="36" selection-end-column="77" />
+            <state relative-caret-position="135">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CommentsController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CommentsController.php">
+      <file leaf-file-name="edit.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/posts/edit.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+            <state relative-caret-position="135">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/main.blade.php">
+      <file leaf-file-name="PostController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PostController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="36" column="92" lean-forward="false" selection-start-line="36" selection-start-column="92" selection-end-line="36" selection-end-column="92" />
+            <state relative-caret-position="330">
+              <caret line="46" column="53" lean-forward="false" selection-start-line="46" selection-start-column="53" selection-end-line="46" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -132,13 +120,10 @@
         <option value="$PROJECT_DIR$/resources/views/partials/_nav.blade.php" />
         <option value="$PROJECT_DIR$/app/Traits/ArrayReturnTrait.php" />
         <option value="$PROJECT_DIR$/app/Libs/ArrayReturnTrait.php" />
-        <option value="$PROJECT_DIR$/resources/views/posts/create.blade.php" />
         <option value="$PROJECT_DIR$/app/Tag.php" />
         <option value="$PROJECT_DIR$/app/Category.php" />
-        <option value="$PROJECT_DIR$/resources/views/posts/edit.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/tags/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/tags/edit.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/PostController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/TagController.php" />
         <option value="$PROJECT_DIR$/resources/views/tags/show.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/emails/contact.blade.php" />
@@ -154,6 +139,9 @@
         <option value="$PROJECT_DIR$/resources/views/posts/show.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/comments/delete.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/CommentsController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/PostController.php" />
+        <option value="$PROJECT_DIR$/resources/views/posts/edit.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/posts/create.blade.php" />
       </list>
     </option>
   </component>
@@ -309,7 +297,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="comments" />
+              <option name="myItemId" value="posts" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -512,7 +500,9 @@
       <workItem from="1486976006404" duration="8333000" />
       <workItem from="1487055030332" duration="1005000" />
       <workItem from="1487140612718" duration="3018000" />
-      <workItem from="1487174326984" duration="7947000" />
+      <workItem from="1487174326984" duration="8139000" />
+      <workItem from="1487233922037" duration="201000" />
+      <workItem from="1487315009784" duration="2334000" />
     </task>
     <task id="LOCAL-00001" summary="some comments style">
       <created>1487144235612</created>
@@ -521,11 +511,18 @@
       <option name="project" value="LOCAL" />
       <updated>1487144235612</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="managing comments">
+      <created>1487232124406</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1487232124406</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="175439000" />
+    <option name="totallyTimeSpent" value="178166000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -542,7 +539,7 @@
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24919094" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25728154" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -596,7 +593,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="some comments style" />
-    <option name="LAST_COMMIT_MESSAGE" value="some comments style" />
+    <MESSAGE value="managing comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="managing comments" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -767,13 +765,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/posts/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="39" lean-forward="false" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Libs/ArrayReturnTrait.php" />
     <entry file="file://$PROJECT_DIR$/app/Tag.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -789,13 +780,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/posts/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="885">
-          <caret line="59" column="6" lean-forward="false" selection-start-line="59" selection-start-column="6" selection-end-line="59" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/tags/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -807,13 +791,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PostController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2220">
-          <caret line="154" column="32" lean-forward="false" selection-start-line="154" selection-start-column="32" selection-end-line="154" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -898,7 +875,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="29" column="47" lean-forward="false" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -906,14 +882,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/comments/delete.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="70" lean-forward="false" selection-start-line="13" selection-start-column="70" selection-end-line="13" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/comments/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/main.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CommentsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -934,26 +931,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/comments/delete.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PostController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="70" lean-forward="false" selection-start-line="13" selection-start-column="70" selection-end-line="13" selection-end-column="70" />
+        <state relative-caret-position="330">
+          <caret line="46" column="53" lean-forward="false" selection-start-line="46" selection-start-column="53" selection-end-line="46" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/comments/edit.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/posts/edit.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CommentsController.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/posts/create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
