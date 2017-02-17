@@ -30,7 +30,7 @@
                         <tr>
                             <th>{{ $post->id }}</th>
                             <td>{{ $post->title }}</td>
-                            <td>{{ str_limit($post->body, 20) }}</td>
+                            <td>{{ str_limit(strip_tags($post->body), 20) }}</td>
                             <td>{{ $post->created_at }}</td>
                             <td>
                                 <a href="{{ route('posts.show', $post->id) }}" class="btn btn-success">view</a>

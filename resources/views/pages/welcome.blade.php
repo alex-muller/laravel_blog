@@ -20,7 +20,7 @@
         @foreach($posts as $post)
             <div class="post">
                 <h3>{{ $post->title }}</h3>
-                <p>{{ str_limit($post->body, 200) }}</p>
+                <p>{{ str_limit(strip_tags($post->body), 200) }}</p>
                 <a href="{{ route('blog.single', $post->slug) }}" class="btn btn-primary">Read More</a>
             </div>
             <hr>

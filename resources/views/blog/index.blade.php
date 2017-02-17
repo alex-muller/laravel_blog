@@ -15,7 +15,7 @@
         <div class="col-md-8 col-md-offset-2">
             <h2>{{ $post->title }}</h2>
             <h5>Published: {{ $post->created_at }}</h5>
-            <p>{{ str_limit($post->body, 200) }}</p>
+            <p>{{ str_limit(strip_tags($post->body), 200) }}</p>
             <a href="{{ route('blog.single', $post->slug) }}">Read More</a>
         </div>
     </div>
