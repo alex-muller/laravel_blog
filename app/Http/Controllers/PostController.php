@@ -9,15 +9,17 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use Illuminate\Support\Facades\Session;
+use Image;
 
 class PostController extends Controller
 {
 
     protected $validate = array(
-        'title'       => 'required|max:255',
-        'slug'        => 'required|max:255|min:5|alpha_dash|unique:posts,slug',
-        'category_id' => 'required|integer',
-        'body'        => 'required'
+        'title'          => 'required|max:255',
+        'slug'           => 'required|max:255|min:5|alpha_dash|unique:posts,slug',
+        'category_id'    => 'required|integer',
+        'body'           => 'required',
+        'featured_image' => 'sometimes|image'
     );
 
     public function __construct()
@@ -65,6 +67,19 @@ class PostController extends Controller
         $post->slug         = $request->slug;
         $post->category_id  = $request->category_id;
         $post->body         = $request->body;
+
+
+        //Save our Image
+        if($request->hasFile('featured_image')){
+            $image = $request->file('featured_image');
+            $filename = time() . '.' . $image->getClientOriginalExtension();
+            $location = public_path('images/' . $filename);
+            Image::make($image)->resize(800, 400)->save($location);
+
+            $post->image = $filename;
+        }
+
+
         $post->save();
 
         $post->tags()->sync($request->tags);
@@ -127,6 +142,21 @@ class PostController extends Controller
         $post->slug = $request->input('slug');
         $post->category_id = $request->category_id;
         $post->body = $request->input('body');
+
+
+        //Save our Image
+        if($request->hasFile('featured_image')){
+            $oldFilename = $post->image;
+
+            unlink(public_path('images/' . $oldFilename));
+
+            $image = $request->file('featured_image');
+            $filename = time() . '.' . $image->getClientOriginalExtension();
+            $location = public_path('images/' . $filename);
+            Image::make($image)->resize(800, 400)->save($location);
+
+            $post->image = $filename;
+        }
 
         $post->save();
 
